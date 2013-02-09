@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="push",
-    version="0.1",
+    version="0.2",
     description="Twitter as a push notification service",
     author="Zach Williams",
     author_email="hey@zachwill.com",
