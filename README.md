@@ -15,6 +15,13 @@ Usage
 $ push Hey, don't forget that one thing. -- (sent from the command line)
 ```
 
+Or, as a distributed form of [Growl][growl]...
+
+```
+$ ssh aws
+$ sh thatreallylongscript.sh && push Alright, all done. You're all set.
+```
+
 
 What is this?
 -------------
@@ -35,4 +42,5 @@ and connect that with your [`foauth` account][foauth].
 
 
 [foauth]: https://foauth.org/
-[req]: http://docs.python-requests.org/en/latest/
+[growl]:  http://growl.info/
+[req]:    http://docs.python-requests.org/en/latest/
