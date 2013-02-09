@@ -34,7 +34,7 @@ you'll need to set.
 ```bash
 export FOAUTH_USER="myfoauthemail@me.com"
 export FOAUTH_PASS="foauth_password"
-export FOAUTH_TWITTER="@zachwill"
+export PUSH_TWITTER="@zachwill"
 ```
 
 You'll also need to sign up for a new (and most likely private) Twitter account,

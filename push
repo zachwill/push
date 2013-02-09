@@ -41,7 +41,7 @@ def alert(env):
 
 def username():
     """Get the Twitter username environment variable."""
-    user = os.getenv('FOAUTH_TWITTER')
+    user = os.getenv('PUSH_TWITTER')
     if not user.startswith('@'):
         user = "@" + user
     return user
