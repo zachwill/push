@@ -19,7 +19,7 @@ Or, as a distributed form of [Growl][growl]...
 
 ```
 $ ssh aws
-$ sh thatreallylongscript.sh && push Alright, all done. You're all set.
+$ sh thatreallylongscript.sh && push Alright, all done. You're all set. || push Something went wrong!
 ```
 
 
